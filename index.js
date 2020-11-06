@@ -228,13 +228,14 @@ Create a function called `getArtistByIndex` that takes two arguments:
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`
 */
-// function getArtistByIndex(array, person) {
-//   let index = array[person];
-//   let name = array[person].name; 
+function getArtistByIndex(array, index) {
+  let name = array[index].name;
+  let indexNum = array[index]; 
 
-//   return console.log(`The artist at ${index} is ${name}`)
-// }  
-// getArtistByIndex(7, name)
+  return console.log(`The artist at ${indexNum} is ${name}`);
+}  
+getArtistByIndex(0, name);
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called get20s() 
@@ -306,11 +307,12 @@ and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
-function lotsOfArt( manyArts){
-let arts: paintings;
-if(paintings => 100{
-  console.log(artists);
-}else if (paintings < 100)
+// function lotsOfArt( manyArts){
+// let arts: paintings;
+// if(paintings => 100{
+//   console.log(artists);
+// }else if (paintings < 100)
+// console.log()
 
 
 
